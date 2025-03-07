@@ -2,34 +2,38 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import projectImg1 from "../../assets/website-img-1.jpg";
+import projectImg2 from "../../assets/website-img-2.webp";
+import projectImg3 from "../../assets/website-img-3.jpg";
+import projectImg4 from "../../assets/website-img-4.jpg";
 
 const projects = [
   {
     name: "Vacation of Africa",
     year: "Mar2022",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: projectImg1,
     link: "#",
   },
   {
     name: "Moola App",
     year: "Sept2022",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: projectImg2,
     link: "#",
   },
   {
     name: "Tourzania",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: projectImg3,
     link: "#",
   },
   {
     name: "Bank of Luck",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: projectImg4,
     link: "#",
   },
 ];
